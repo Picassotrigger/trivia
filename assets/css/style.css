@@ -1,0 +1,112 @@
+html {
+    background: #7bcbbd;
+}
+body {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+}
+container {
+    position: relative;
+    margin: auto;
+}
+
+/*-----------------   TITLE   -----------------*/
+h1 {
+    color: #fc606c;
+    font-size: 4em;
+    font-family: 'Cherry Cream Soda', cursive;
+}
+#title {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+
+/*-----------------   GAME CLOCK   -----------------*/
+h3 {
+    color: antiquewhite;
+    font-size: 2em;
+}
+#game-clock {
+    font-size: 4em;
+    color: #fc606c;
+}
+.score-label {
+    font-size: 1.7em;
+}
+
+.score {
+    font-size: 2.5em;
+    color: #85A2CF;
+    
+}
+
+
+
+
+/*-----------------   Q & A   -----------------*/
+h2 {
+    color: antiquewhite;
+    font-size: 2.2em;
+}
+li {
+    color: antiquewhite;
+    font-size: 2em;
+}
+li:hover {
+    color: #85A2CF;
+    cursor: pointer;
+}
+#question {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#answers{
+
+}
+#answersList {
+    display: none;
+}
+.main {
+    border: 2px solid antiquewhite;
+    margin-top: 50px;
+}
+
+
+
+
+/*-----------------   RESET   -----------------*/
+
+#play-again {
+    display: none;
+    margin-top: 27px;
+    height: 3em;
+    background-color: #85A2CF;
+    width: 250px;
+    border: none;
+    color: antiquewhite;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

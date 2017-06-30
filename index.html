@@ -1,0 +1,71 @@
+<!doctype html>
+
+<html>
+	<head>
+		<title>Trivia by the Sea</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=Cherry+Cream+Soda" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="assets/css/bulma.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	</head>
+
+	<body>
+        
+        <div class="container">
+            
+            <div class="columns">
+                <div class="column" align="center">
+                    <h1 id="title">Trivia by the Sea</h1>
+                </div>
+            </div>
+            
+            <div class="columns">
+                <div class="column" align="center">
+                    <h2 class="score-label">Correct</h2>
+                    <p><span id="correct-answers" class="score">0</span></p>
+                </div>
+                
+                <div class="column" align="center">
+                    <h2>Time Left</h2>
+                    <p><span id="game-clock">0:00</span></p>
+                </div>
+                
+                <div class="column" align="center">
+                    <h2 class="score-label">Wrong</h2>
+                    <p><span id="wrong-answers" class="score">0</span></p>
+                </div>
+            </div>
+            
+            <div class="columns main">
+                <div class="column id-1"></div>
+                <div class="column is-6" align="left">
+                    <h2 id="question">Virgin Trains, Virgin Atlantic and Virgin Racing, are all companies owned by which famous entrepreneur?</h2>
+                </div>
+                
+                <div class="column id-1"></div>
+
+                <div id="answers" class="column is-4" align="left">
+                    <button id="play-again" class="button">Play Again</button>
+                    <ul id="answersList">
+                        <li id="answer1" class="answer" value="0">1: Richard Branson</li>
+                        <li id="answer2" class="answer" value="1">2: Alan Sugar</li>
+                        <li id="answer3" class="answer" value="2">3: Larry Ellison</li>
+                        <li id="answer4" class="answer" value="3">4: Bill Gates</li>
+                    </ul>
+                </div>
+            </div>
+
+        
+        
+        
+        
+        </div>  <!--------------  END OF CONTAINER  -------------->
+        
+        
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="assets/js/trivia.js"></script>
+	</body>
+</html>
