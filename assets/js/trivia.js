@@ -190,6 +190,7 @@ function checkAnswer() {
 
         if(answeredCorrectly + answeredWrong === questionsPerGame) {
             setTimeout(gameOver, 1000);
+            stopwatch.stop();
         }else {
             setTimeout(presentProblem, 1000);
         }
@@ -207,6 +208,7 @@ function checkAnswer() {
 
         if(answeredCorrectly + answeredWrong === questionsPerGame) {
             setTimeout(gameOver, 1000);
+            stopwatch.stop();
         }else {
             setTimeout(presentProblem, 1000);
         }
